@@ -1,0 +1,15 @@
+<%-include("partials/header");-%>
+    <h1>Remove Pages From Journal</h1>
+    <form class="rightAlign" action="/remove" method="post">
+        <input type="text" class="removePosts" name="postName" autocomplete="off" placeholder="Post Name" required>
+        <button type="submit" class="danger">Remove</button>
+    </form>
+    <%for(var i=0;i<posts.length;i++){%>
+        <ul>
+            <li>
+                <%=posts[i].title%>
+            </li>
+        </ul>
+        <%}%>
+
+            <%-include("partials/footer");-%>
