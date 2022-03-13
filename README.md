@@ -10,9 +10,9 @@ Personal Journal Developed for daily use.⏩ https://whispering-stream-12241.her
 * Heroku Server (Deployment)
 
 # Functionlity
-You can compose New pages by visiting URL: Homepage/compose OR https://whispering-stream-12241.herokuapp.com/compose
-You can also delete the Pages by Visiting the URL: Homepage/remove  OR https://whispering-stream-12241.herokuapp.com/remove
-Note Only those posts can be removed which are shown in the remove page.
+* You can compose New pages by visiting URL: Homepage/compose OR https://whispering-stream-12241.herokuapp.com/compose
+* You can also delete the Pages by Visiting the URL: Homepage/remove  OR https://whispering-stream-12241.herokuapp.com/remove
+* Note Only those posts can be removed which are shown in the remove page.
 
 # Deploy Your Own
 To deploy your own Journal, you can fork this repo, and upload it to Heroku Server, Changes can be made for URL of compose, and remove. Depending on your mood. 
