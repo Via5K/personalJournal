@@ -1,0 +1,13 @@
+<%-include("partials/header");-%>
+    <h1>Contact</h1>
+    <p>
+        <%=contactPageDetails%>
+    </p>
+    <h2>Contact Form</h2> <br>
+    <form action="mailto:n000nautiyal@gmail.com" method="post">
+        <input class="inputs" type="text" placeholder="James Andersom" autocomplete="off" autofocus required> <br>
+        <input class="inputs" type="email" placeholder="abc@xyz.com" autocomplete="off" required> <br>
+        <textarea class="inputs" id="" cols="50" rows="5" placeholder="Feedback" autocomplete="off"></textarea> <br>
+        <button type="submit" class="publish">Contact</button>
+    </form>
+    <%-include("partials/footer");-%>
