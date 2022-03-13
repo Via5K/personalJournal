@@ -6,6 +6,7 @@ Personal Journal Developed for daily use.⏩ https://whispering-stream-12241.her
 * Core JS
 * HTML
 * CSS
+* Express
 * Heroku Server (Deployment)
 
 # Functionlity
