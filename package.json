@@ -7,11 +7,17 @@
     },
     "author": "Neeraj",
     "license": "ISC",
+    "engines": {
+        "nodejs": "16.10.0"
+    },
     "dependencies": {
         "body-parser": "^1.18.3",
+        "dotenv": "^16.0.1",
         "ejs": "^2.6.1",
         "express": "^4.16.3",
-        "lodash": "^4.17.21"
+        "lodash": "^4.17.21",
+        "mongoose": "^6.5.0",
+        "nodemon": "^2.0.19"
     },
     "description": "Personal Journal lets you create daily posts for your daily activity."
 }
