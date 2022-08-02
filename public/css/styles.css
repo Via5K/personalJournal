@@ -76,3 +76,19 @@
     font-size: 12px;
     color: #fff;
 }
+
+#deleteButton {
+    float: right;
+    height: 80%;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+.dltTitle {
+    font-size: 1.5rem;
+}
+
+#deleteForm {
+    margin-left: 1%;
+    margin-right: 20%;
+}

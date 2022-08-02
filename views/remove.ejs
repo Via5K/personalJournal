@@ -1,15 +1,19 @@
 <%-include("partials/header");-%>
     <h1>Remove Pages From Journal</h1>
-    <form class="rightAlign" action="/remove" method="post">
+    <!-- Used to delete the post by POST NAME -->
+    <!-- <form class="rightAlign" action="/remove" method="post">
         <input type="text" class="removePosts" name="postName" autocomplete="off" placeholder="Post Name" required>
         <button type="submit" class="danger">Remove</button>
-    </form>
+    </form> -->
     <%for(var i=0;i<posts.length;i++){%>
-        <ul>
-            <li>
+        <form id="deleteForm" action="/remove" method="POST">
+
+            <p class="dltTitle">
                 <%=posts[i].title%>
-            </li>
-        </ul>
+                    <button id="deleteButton" class="danger" type="submit" name="dltButton" value="<%= posts[i]._id%>" onclick="this.form.submit()">Remove
+            Me</button>
+            </p>
+        </form>
         <%}%>
 
             <%-include("partials/footer");-%>
